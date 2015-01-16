@@ -8,6 +8,8 @@ We wrote these exercises with the intent to give you the opportunity to solve so
 
 If you are a CodeUnion student, you can then submit your code and receive feedback on them using the [CodeUnion command-line tool][codeunion-cli-tool]. Preview an [example code review][example-code-review].
 
+All of the core exercises can be found in the [exercises](exercises) directory. Each exercises is a folder with some starter code already written. **Read the README** in each exercise for instructions.
+
 ## Getting Started
 
 1. [Fork][gh-help-forking] and clone this repository
