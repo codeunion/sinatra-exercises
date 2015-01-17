@@ -1,0 +1,15 @@
+<h2>All known Tweets.</h2>
+
+<ul>
+  <% @tweets.each do |tweet| %>
+    <li>
+      "<%= tweet.status %>" by <%= tweet.user %> | <a href="/tweets/<%= tweet.id %>">show tweet</a> | <a href="/tweets/edit/<%= tweet.id %>">edit</a>
+      <form action="/tweets/<%= tweet.id %>" method="POST">
+        <input type="hidden" name="_method" value="delete">
+        <input type="submit" value="delete">
+      </form>
+    </li>
+  <% end %>
+</ul>
+<a href="/tweets/new">Add New Tweet</a> | 
+<a href="/">Home</a>

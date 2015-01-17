@@ -1,0 +1,12 @@
+<h2>Add a Tweet</h2>
+<form method="POST" action="/tweets">
+  <label>Status:
+    <input type="text" name="tweet[status]" value="<%=@tweet.status %>" />
+  </label><br />
+  <label>User:
+    <input type="text" name="tweet[user]" value="<%=@tweet.user %>" />
+  </label><br />
+  <input type="submit" value="Create the Tweet!" />
+</form>
+
+<a href="/">Home</a>
