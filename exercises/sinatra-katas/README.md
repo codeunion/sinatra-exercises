@@ -3,7 +3,7 @@
 You can run this application from your application's root directory (rember to run ```bundle install```)
 
 ```bash
-rerun -x rackup
+rerun -c rackup
 ```
 
 View the application in browser ```http://locahost:9292/```.
